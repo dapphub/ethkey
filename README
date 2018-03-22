@@ -1,0 +1,24 @@
+NAME:
+   ethkey - create Ethereum accounts as encrypted JSON keyfiles
+
+USAGE:
+   ethkey [global options] command [command options] [arguments...]
+
+COMMANDS:
+     new, n   new account
+     help, h  Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --help, -h     show help
+   --version, -v  print the version
+
+NAME:
+   ethkey new - new account
+
+USAGE:
+   ethkey new [command options] [arguments...]
+
+OPTIONS:
+   --key-store value        path to key store directory [$ETH_KEYSTORE]
+   --passphrase-file value  path to file containing account passphrase [$ETH_PASSWORD]
+   
